@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset  */
+    body{
+        font-family: 'Roboto Slab', serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bts1.jpg') ;
+    }
+    .left{
+        display: inline-block;
+        
+        position:absolute;
+        left: 34px;
+        top: 20px;
+        background-color: white;
+
+    }
+    .left img{
+        height: 43px;
+        width: 45px;
+    }
+    .mid{
+        display:block;
+        width: 36%;
+        margin: 20px auto;
+        
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display:inline-block;
+        font-size: 15px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 11px 9px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        color: yellow;
+        text-decoration: italic;
+        padding: 11px 9px;
+    }
+    .btn{
+        font-family: 'Roboto Slab', serif;
+        margin: 0px 2px;
+        background-color: white;
+        color:grey;
+        padding: 4px 14 px;
+        border: 1px solid white;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color:  rgb(216, 203, 203);
+    }
+    
+    
+    .container{
+        text-align: center;
+        display:inline-block ;
+        margin 150px 666px;
+        width: 85%;
+        color: white;
+      
+        padding: 100px 100px;
+        
+        
+    }
+    .form-group input{
+        font-family: 'Roboto Slab', serif;
+        display: block;
+        width: 250px;
+        margin: 3px auto;
+        font-size: 15px;
+        padding: 10px 66px;
+        border: white;
+        border-radius: 2px;
+        text-align: center;
+    }
+    .h1{
+        font-size: 25;
+    }
+    .container button{
+        display: block;
+        margin: auto;
+        background-color: white;
+        color: grey;
+        border-radius: 1px;
+        width: 12%;
+        padding: 5px 1px;
+    }
+    .container button:hover{
+        background-color: rgb(221, 208, 208);
+    }
+</style>
+<body>
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+            <img src="img/BTS_Logo (1).png" alt="">
+            
+           
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" >Home</a></li>
+                <li><a href="#">About  BTS</a></li>
+                <li><a href="#">BTS Members</a></li>
+                <li><a href="#">For More</a></li>
+            
+                
+            </ul>
+            
+
+        </div>
+        <!-- right for buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Learn About BTS</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Type to Know BTS Members">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Type to Know There Songs">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Type to Know there Struggles">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Type to Know there Achievements">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+        
+     
+    </div>
+</body>
+</html>
